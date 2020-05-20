@@ -1,4 +1,4 @@
-package com.challenge.leetcode;
+package com.challenge.leetcode.topquestions;
 
 /**
  * Reverse bits of a given 32 bits unsigned integer.

@@ -1,4 +1,4 @@
-package com.challenge.leetcode;
+package com.challenge.leetcode.topquestions;
 
 /**
  * Given a linked list, determine if it has a cycle in it.

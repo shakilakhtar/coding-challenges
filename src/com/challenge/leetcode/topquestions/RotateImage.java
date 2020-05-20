@@ -1,4 +1,4 @@
-package com.challenge.leetcode;
+package com.challenge.leetcode.topquestions;
 
 /**
  * You are given an n x n 2D matrix representing an image.

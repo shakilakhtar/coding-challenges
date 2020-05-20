@@ -1,4 +1,4 @@
-package com.challenge.leetcode;
+package com.challenge.leetcode.topquestions;
 
 import java.math.BigInteger;
 import java.util.stream.IntStream;

@@ -1,4 +1,4 @@
-package com.challenge.leetcode;
+package com.challenge.leetcode.topquestions;
 
 /**
  * Definition for singly-linked list.

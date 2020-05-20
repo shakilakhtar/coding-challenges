@@ -1,4 +1,4 @@
-package com.challenge.leetcode;
+package com.challenge.leetcode.topquestions;
 
 /**
  * Write a function to delete a node (except the tail) in a singly linked list, given only access to that node.

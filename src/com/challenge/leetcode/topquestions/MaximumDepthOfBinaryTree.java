@@ -1,4 +1,4 @@
-package com.challenge.leetcode;
+package com.challenge.leetcode.topquestions;
 /**
  * Given a binary tree, find its maximum depth.
  *

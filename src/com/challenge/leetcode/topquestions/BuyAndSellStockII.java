@@ -1,4 +1,4 @@
-package com.challenge.leetcode;
+package com.challenge.leetcode.topquestions;
 /**
  * Say you have an array for which the ith element is the price of a given stock on day i.
  *

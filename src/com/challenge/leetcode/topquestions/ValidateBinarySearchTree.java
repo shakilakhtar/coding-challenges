@@ -1,4 +1,4 @@
-package com.challenge.leetcode;
+package com.challenge.leetcode.topquestions;
 /**
  * Given a binary tree, determine if it is a valid binary search tree (BST).
  *
