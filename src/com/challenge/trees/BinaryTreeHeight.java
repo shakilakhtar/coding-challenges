@@ -9,12 +9,12 @@ import static java.lang.Math.max;
  */
 public class BinaryTreeHeight {
 
-    int hight(TreeNode node){
+    int height(TreeNode node){
         if (node==null){
             return 0;
         }
-        int leftHight=hight(node.left);
-        int rightHight = hight(node.right);
+        int leftHight=height(node.left);
+        int rightHight = height(node.right);
 
         return 1+max(leftHight,rightHight);
     }
