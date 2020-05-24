@@ -1,17 +1,17 @@
-package com.challenge.trees;
+package com.challenge.tree;
 
 import com.challenge.leetcode.topquestions.TreeNode;
 
 /**
  * @author Shakil Akhtar
  */
-public class BinaryTreeInOrder {
+public class BinaryTreePostOrder {
 
-    public void inOrder(TreeNode node){
+    public void postOrder(TreeNode node){
         if (node!=null){
-            inOrder(node.left);
+            postOrder(node.left);
+            postOrder(node.right);
             System.out.println(node.val);
-            inOrder(node.right);
         }
     }
 }

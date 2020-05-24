@@ -1,4 +1,4 @@
-package com.challenge.trees;
+package com.challenge.tree;
 
 import com.challenge.leetcode.topquestions.TreeNode;
 

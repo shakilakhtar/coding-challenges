@@ -1,16 +1,16 @@
-package com.challenge.trees;
+package com.challenge.tree;
 
 import com.challenge.leetcode.topquestions.TreeNode;
 
 /**
  * @author Shakil Akhtar
  */
-public class BinaryTreePreOrder {
+public class BinaryTreeInOrder {
 
     public void inOrder(TreeNode node){
-        if(node!=null){
-            System.out.println(node.val);
+        if (node!=null){
             inOrder(node.left);
+            System.out.println(node.val);
             inOrder(node.right);
         }
     }
