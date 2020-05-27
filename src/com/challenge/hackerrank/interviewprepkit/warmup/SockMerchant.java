@@ -1,4 +1,4 @@
-package com.challenge.hackerrank.interviewprepkit;
+package com.challenge.hackerrank.interviewprepkit.warmup;
 
 import java.util.*;
 
