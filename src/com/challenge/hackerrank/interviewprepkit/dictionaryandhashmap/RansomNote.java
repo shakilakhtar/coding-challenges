@@ -1,4 +1,4 @@
-package com.challenge.hackerrank.interviewprepkit;
+package com.challenge.hackerrank.interviewprepkit.dictionaryandhashmap;
 
 import java.util.HashMap;
 import java.util.Map;
