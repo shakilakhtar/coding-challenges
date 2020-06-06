@@ -59,8 +59,21 @@ package com.challenge.hackerrank.interviewprepkit.dp;
  */
 public class MaxArraySum {
 
-
     static int maxSubsetSum(int[] arr) {
+        int sum = arr[0];
+        int temp = 0;
+        int maxSum;
+
+        for (int i = 1; i < arr.length; i++) {
+            maxSum = Math.max(temp, sum);
+            sum = temp + arr[i];
+            temp = maxSum;
+        }
+
+        return Math.max(temp, sum);
+    }
+
+    static int maxSubsetSum2(int[] arr) {
         int maxSum = 0;
         for (int i = 0; i < arr.length - 1; i++) {
             int sum = 0;
