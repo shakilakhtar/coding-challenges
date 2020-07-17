@@ -124,6 +124,7 @@ public class DecibinaryNumbers {
             x /= x;
             p++;
         }
+        System.out.println(sum);
         return sum;
     }
 
@@ -168,3 +169,50 @@ public class DecibinaryNumbers {
 //            System.out.println(numsdb[i]);
     }
 }
+
+
+//    static long dbtodeci(long db)
+//    {
+//        int p = 0; long sum = 0;
+//        while (db != 0)
+//        {
+//            sum += (db % 10) * Convert.ToInt64(Math.Pow(2, p));
+//            db /= 10; p++;
+//        }
+//        return sum;
+//    }
+//
+//
+//    static void Main(string[] args)
+//    {
+//        long x; int index;
+//        List<long> numsdec = new List<long>();
+//        List<long> numsdb = new List<long>();
+//        // here you decide how many values to be precomputed
+//        for (long i = 0; i < 1000; i++)
+//        {
+//            x = dbtodeci(i);
+//            if (numsdec.Exists(k => k == x))
+//            {
+//                index = numsdec.FindLastIndex(k => k == x);
+//                numsdec.Insert(index + 1, x);
+//                numsdb.Insert(index + 1, i);
+//            }
+//                else
+//            {
+//                numsdec.Add(x);
+//                numsdb.Add(x);
+//            }
+//        }
+//
+//        List<int> indexes = new List<int>();
+//        Console.Write("nb of queries: ");
+//        int q = Convert.ToInt32(Console.ReadLine());
+//        for (int i = 0; i < q; i++)
+//        {
+//            int xth = Convert.ToInt32(Console.ReadLine());
+//            indexes.Add(xth - 1);
+//        }
+//        foreach (int i in indexes)
+//        Console.WriteLine(numsdb[i]);
+//    }
