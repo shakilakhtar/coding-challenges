@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/careercup/careercup.iml" filepath="$PROJECT_DIR$/careercup/careercup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/coding-challenges.iml" filepath="$PROJECT_DIR$/.idea/coding-challenges.iml" />
+      <module fileurl="file://$PROJECT_DIR$/geeksforgeek/geeksforgeek.iml" filepath="$PROJECT_DIR$/geeksforgeek/geeksforgeek.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hackerrank/hackerrank.iml" filepath="$PROJECT_DIR$/hackerrank/hackerrank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leetcode/leetcode.iml" filepath="$PROJECT_DIR$/leetcode/leetcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/misc/misc.iml" filepath="$PROJECT_DIR$/misc/misc.iml" />
+    </modules>
+  </component>
+</project>
