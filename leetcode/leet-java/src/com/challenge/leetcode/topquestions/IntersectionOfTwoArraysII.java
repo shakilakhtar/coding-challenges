@@ -51,7 +51,7 @@ public class IntersectionOfTwoArraysII {
         if(smallArray.length>0) {
             //get first element matching index in searching array
             int index = -1;
-            for (int j = 0; j < biggerLength; j++) {
+            for (int j = 0; j <= biggerLength; j++) {
                 if (bigArray[j] == smallArray[0]) {
                     //first element match
                     index = j;
