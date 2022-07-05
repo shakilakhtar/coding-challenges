@@ -1,6 +1,5 @@
 package com.challenge.geeksforgeek.linkedlist;
 
-import com.challenge.leetcode.topquestions.ListNode;
 
 public class ReverseLinkedList {
 
