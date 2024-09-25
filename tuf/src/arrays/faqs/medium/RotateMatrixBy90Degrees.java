@@ -7,7 +7,7 @@ public class RotateMatrixBy90Degrees {
         //transpose matrix
         for (int i = 0; i <n ; i++) {
             for (int j = 0; j <i ; j++) {
-               //swap element from digonal
+               //swap element from diagonal
                int temp =  matrix[i][j];
                matrix[i][j] = matrix[j][i];
                 matrix[j][i] = temp;
